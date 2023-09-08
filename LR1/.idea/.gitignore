@@ -1,0 +1,27 @@
+# Compiled class file
+*.class
+
+# Idea files
+.idea/*
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+
+# Folders
+# `targer` содержит ИИ модели для классификатора
+out
+examples/results/*
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+# IDEA project files
+*.iml
+.idea
+
+# Backup files
+*.bak
