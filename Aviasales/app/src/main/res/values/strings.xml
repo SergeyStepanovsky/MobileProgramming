@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Бронирование Авиабилетов</string>
+    <string name="departure_city_prompt">Выберите город вылета</string>
+    <string name="arrival_city_prompt">Выберите город прилета</string>
+    <string name="departure_date_hint">Дата вылета</string>
+    <string name="return_date_hint">Дата возвращения</string>
+    <string name="number_of_adults_hint">Количество взрослых</string>
+    <string name="number_of_children_hint">Количество детей</string>
+    <string name="number_of_infants_hint">Количество младенцев</string>
+    <string name="search">Кпить</string>
+</resources>

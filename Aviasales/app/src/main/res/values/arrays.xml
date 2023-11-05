@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="city_list">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Новосибирск</item>
+        <item>Екатеринбург</item>
+        <item>Казань</item>
+        <item>Иркутск</item>
+    </string-array>
+</resources>

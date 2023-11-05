@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Выпадающий список для города вылета -->
+    <Spinner
+        android:id="@+id/spinner_departure_city"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:prompt="@string/departure_city_prompt"
+        android:entries="@array/city_list" />
+
+    <!-- Выпадающий список для города прилета -->
+    <Spinner
+        android:id="@+id/spinner_arrival_city"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/spinner_departure_city"
+        android:prompt="@string/arrival_city_prompt"
+        android:entries="@array/city_list" />
+
+    <!-- Поля для выбора даты вылета и прилета -->
+    <!-- Поля для выбора даты вылета и прилета -->
+    <!-- Дата вылета -->
+    <EditText
+        android:id="@+id/edittext_departure_date"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/spinner_arrival_city"
+        android:hint="@string/departure_date_hint"
+        android:drawableEnd="@android:drawable/ic_menu_my_calendar"
+        android:focusable="false" />
+
+    <!-- Дата возвращения -->
+    <EditText
+        android:id="@+id/edittext_return_date"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/edittext_departure_date"
+        android:hint="@string/return_date_hint"
+        android:drawableEnd="@android:drawable/ic_menu_my_calendar"
+        android:focusable="false" />
+
+
+    <!-- Поля для выбора количества пассажиров -->
+    <!-- Взрослые -->
+    <EditText
+        android:id="@+id/edittext_adults"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="number"
+        android:layout_below="@id/edittext_return_date"
+        android:hint="@string/number_of_adults_hint"
+        android:layout_alignParentStart="true" />
+
+    <!-- Дети -->
+    <EditText
+        android:id="@+id/edittext_children"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="number"
+        android:layout_below="@id/edittext_adults"
+        android:hint="@string/number_of_children_hint"
+        android:layout_alignParentStart="true" />
+
+    <!-- Младенцы -->
+    <EditText
+        android:id="@+id/edittext_infants"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="number"
+        android:layout_below="@id/edittext_children"
+        android:hint="@string/number_of_infants_hint"
+        android:layout_alignParentStart="true" />
+
+    <!-- Кнопка для поиска билетов -->
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_infants"
+        android:layout_centerHorizontal="true"
+        android:padding="12dp"
+        android:text="@string/search" />
+
+</RelativeLayout>
