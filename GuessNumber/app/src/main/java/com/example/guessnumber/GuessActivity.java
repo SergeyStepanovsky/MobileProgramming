@@ -59,7 +59,7 @@ public class GuessActivity extends AppCompatActivity {
 
     private void onHigher() {
         min = guess + 1;
-        guess = (min + max + 1) / 2; 
+        guess = (min + max + 1) / 2;
         if (min >= max) {
             guess = max;
             onCorrect();
