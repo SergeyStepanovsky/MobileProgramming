@@ -14,14 +14,24 @@
         android:textSize="24sp"/>
 
     <Button
+        android:id="@+id/buttonHigher"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Higher"
         android:onClick="onHigher"/>
 
     <Button
+        android:id="@+id/buttonLower"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Lower"
         android:onClick="onLower"/>
+
+    <!-- Кнопка для подтверждения правильного числа -->
+    <Button
+        android:id="@+id/buttonCorrect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correct"
+        android:onClick="onCorrect"/>
 </LinearLayout>
