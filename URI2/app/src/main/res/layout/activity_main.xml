@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="12dp"
+        android:hint="Введите текст"
+        android:inputType="text" />
+
+
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Веб-адрес"/>
+
+        <RadioButton
+            android:id="@+id/radioGeo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Геоточка"/>
+
+        <RadioButton
+            android:id="@+id/radioPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Телефон"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вызов"/>
+</LinearLayout>
