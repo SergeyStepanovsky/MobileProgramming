@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">URI2</string>
+    <string name="app_name">IntentHandlerApp</string>
+    <string name="enter_text">Enter text here...</string>
+    <string name="web_address">Web Address</string>
+    <string name="geo_point">Geo Point</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="execute">Execute</string>
 </resources>
