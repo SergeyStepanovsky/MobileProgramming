@@ -1,0 +1,19 @@
+<resources>
+    <string-array name="surnames">
+        <item>Smith</item>
+        <item>Johnson</item>
+        <item>Williams</item>
+        <item>Brown</item>
+        <item>Jones</item>
+        <item>Miller</item>
+        <item>Davis</item>
+        <item>Garcia</item>
+        <item>Rodriguez</item>
+        <item>Wilson</item>
+        <item>Martinez</item>
+        <item>Anderson</item>
+        <item>Taylor</item>
+        <item>Thomas</item>
+        <item>Hernandez</item>
+    </string-array>
+</resources>

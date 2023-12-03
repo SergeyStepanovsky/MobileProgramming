@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- EditText для ввода имени -->
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:hint="Введите имя"
+    android:layout_margin="8dp"/>
+
+    <!-- EditText для ввода фамилии -->
+    <EditText
+        android:id="@+id/surnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:hint="Введите фамилию"
+    android:layout_below="@id/nameEditText"
+    android:layout_margin="8dp"/>
+
+    <!-- Кнопка для добавления случайного пользователя -->
+    <Button
+        android:id="@+id/addRandomUserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить случайного пользователя"
+        android:layout_below="@id/surnameEditText"
+        android:layout_margin="8dp"/>
+
+    <!-- Кнопка для добавления пользователя с клавиатуры -->
+    <Button
+        android:id="@+id/addUserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить пользователя"
+        android:layout_below="@id/addRandomUserButton"
+        android:layout_margin="8dp"/>
+
+    <!-- ListView для отображения списка пользователей -->
+    <ListView
+        android:id="@+id/userListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addUserButton"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

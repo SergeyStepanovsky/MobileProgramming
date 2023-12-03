@@ -1,0 +1,19 @@
+<resources>
+    <string-array name="given_names_array">
+        <item>James</item>
+        <item>Elizabeth</item>
+        <item>Michael</item>
+        <item>Emily</item>
+        <item>John</item>
+        <item>Sophia</item>
+        <item>Robert</item>
+        <item>Amanda</item>
+        <item>William</item>
+        <item>Olivia</item>
+        <item>David</item>
+        <item>Isabella</item>
+        <item>Richard</item>
+        <item>Megan</item>
+        <item>Joseph</item>
+    </string-array>
+</resources>
