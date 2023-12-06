@@ -1,0 +1,17 @@
+[
+  {"name": "Irina", "phoneNumber": "987654", "sex": "WOMAN"},
+  {"name": "Maxim", "phoneNumber": "456789", "sex": "MAN"},
+  {"name": "Valery", "phoneNumber": "334455", "sex": "OTHER"},
+  {"name": "Alexey", "phoneNumber": "667788", "sex": "NOT_SPECIFIED"},
+  {"name": "Svetlana", "phoneNumber": "556644", "sex": "UNKNOWN"},
+  {"name": "Dmitry", "phoneNumber": "123321", "sex": "OTHER"},
+  {"name": "Olga", "phoneNumber": "224466", "sex": "NOT_SPECIFIED"},
+  {"name": "Nikita", "phoneNumber": "998877", "sex": "WOMAN"},
+  {"name": "Elena", "phoneNumber": "112211", "sex": "MAN"},
+  {"name": "Yuri", "phoneNumber": "445566", "sex": "UNKNOWN"},
+  {"name": "Anastasia", "phoneNumber": "778899", "sex": "OTHER"},
+  {"name": "Vladimir", "phoneNumber": "332211", "sex": "MAN"},
+  {"name": "Tatiana", "phoneNumber": "889977", "sex": "WOMAN"},
+  {"name": "Sergey", "phoneNumber": "123987", "sex": "NOT_SPECIFIED"},
+  {"name": "Ksenia", "phoneNumber": "456123", "sex": "UNKNOWN"}
+]

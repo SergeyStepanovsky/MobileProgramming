@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color> <!-- Оранжевый цвет для основной темы -->
+    <color name="colorPrimaryDark">#F57C00</color> <!-- Более темный оттенок оранжевого для темной темы -->
+    <color name="colorAccent">#FF5722</color> <!-- Акцентный цвет -->
+    <color name="selected_item_color">#B2EBF2</color> <!-- Светло-голубой цвет для выделения -->
+    <color name="default_item_color">#FFFFFF</color> <!-- Белый цвет по умолчанию -->
+</resources>
+

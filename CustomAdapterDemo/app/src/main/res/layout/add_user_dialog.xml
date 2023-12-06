@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Name"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="phone"
+        android:hint="Phone number"
+        android:padding="12dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <RadioButton
+            android:id="@+id/radioMan"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Man" />
+
+        <RadioButton
+            android:id="@+id/radioWoman"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Women" />
+
+        <RadioButton
+            android:id="@+id/radioOther"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Other" />
+
+        <RadioButton
+            android:id="@+id/radioUnknown"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Unknown" />
+
+        <RadioButton
+            android:id="@+id/radioNotSpecified"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Not specefied" />
+    </RadioGroup>
+</LinearLayout>
